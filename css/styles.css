@@ -13,6 +13,7 @@ body{
     background-color: rgba(0, 0, 0, .7);
     border-radius: 8px 8px 0 0;
     padding: 1em 1em 0 0;
+    margin-top: 1.3em;
 }
 .modal{
     background-color: rgba(0, 0, 0, .7);
@@ -30,6 +31,7 @@ body{
 }
 header{
     margin-top: 0;
+    margin-bottom: 1em;
     display: flex;
     justify-content: space-between;
 }
@@ -54,24 +56,29 @@ header{
     text-decoration: underline;
 }
 .themes{
-    margin: 2em 0;
+    margin: 1em 0;
     display: flex;
     flex-direction: row;
     padding: 1em;
+    align-items: flex-start;
 }
 .information{
     margin-left: 1em;
     width: 50%;
 }
-.title, .paragraph{
+.title{
+    margin-top: 0;
+}
+.title, .title_biome, .title_ores, .paragraph{
     color: white;
 }
 .img{
-    width: 400px;
-    height: 200px;
+    width: 40%;
+    height: 20%;
 }
 .paragraph{
     text-align: justify;
+    font-size: 1.2em;
 }
 .button_theme > button{
     background-color: green;
@@ -82,4 +89,35 @@ header{
 }
 .button_theme > button:hover{
     text-decoration: underline;
+}
+
+
+.list{
+    padding: 0;
+    margin-top: 1em;
+}
+.items_biome{
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.title_biome{
+    margin-bottom: 0;
+}
+.img_biome{
+    width: 90%;
+    height: 70%;
+}
+
+
+.items_ores{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+}
+.img_ores{
+    width: 250px;
+    height: 250px;
 }
