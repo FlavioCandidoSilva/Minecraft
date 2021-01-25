@@ -29,6 +29,9 @@ body{
 .flag{
     width: 40px;
 }
+.flag:hover{
+    cursor: pointer;
+}
 header{
     margin-top: 0;
     margin-bottom: 1em;
@@ -109,6 +112,7 @@ header{
 .img_biome{
     width: 90%;
     height: 70%;
+    border-radius: 10px;
 }
 
 
@@ -118,6 +122,20 @@ header{
     flex-direction: row;
 }
 .img_ores{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+}
+.information_ores{
+    width: 70%;
+}
+
+
+.image{
+    width: 30%;
+    padding: 1em;
+}
+.photos{
+    width: 200px;
+    height: 200px;
+    margin-right: 1em;
+    border-radius: 6px;  
 }
